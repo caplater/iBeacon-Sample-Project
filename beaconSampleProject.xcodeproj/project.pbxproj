@@ -173,6 +173,7 @@
 				TargetAttributes = {
 					7FDBEF781B13EF7B004CEB1D = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 5Q3738W92T;
 					};
 					7FDBEF911B13EF7B004CEB1D = {
 						CreatedOnToolsVersion = 6.2;
@@ -349,9 +350,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5Q3738W92T;
 				INFOPLIST_FILE = beaconSampleProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.plater.beaconSampleProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -360,9 +363,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5Q3738W92T;
 				INFOPLIST_FILE = beaconSampleProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.plater.beaconSampleProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -420,6 +425,7 @@
 				7FDBEF9E1B13EF7B004CEB1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7FDBEF9F1B13EF7B004CEB1D /* Build configuration list for PBXNativeTarget "beaconSampleProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +434,7 @@
 				7FDBEFA11B13EF7B004CEB1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
